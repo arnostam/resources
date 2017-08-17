@@ -1,0 +1,20 @@
+label[for="_searchRma_WAR_stargate_questionResponses[CYCLEON_ID]"] {
+  position: relative;
+}
+
+label[for="_searchRma_WAR_stargate_questionResponses[CYCLEON_ID]"]:hover::after {
+  content: "Please enter the Cycleon ID including brackets: Eg. (00)087142545#########";
+  font-size: 0.9em;
+  width: 200px;
+  line-height: 1.2em;
+  background-color: #222e3a;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1em;
+  /* Position the tooltip */
+  position: absolute;
+  top: -80px;
+  left: 10px;
+  z-index: 1;
+}
